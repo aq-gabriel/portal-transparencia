@@ -1,0 +1,28 @@
+{
+  "linkIframe": [
+    {
+      "name": "Empenhos",
+      "link": "",
+      "iconImage": "fas fa-pen-fancy",
+      "linkIframe": "http://transparenciapublica.sicasp.com.br/orcamento/151141"
+    },
+    {
+      "name": "Liquidações",
+      "link": "",
+      "iconImage": "fas fa-gavel",
+      "linkIframe": "/manutencao"
+    },
+    {
+      "name": "Pagamentos",
+      "link": "",
+      "iconImage": "fas fa-book",
+      "linkIframe": "/manutencao"
+    },
+    {
+      "name": "Anulações",
+      "link": "",
+      "iconImage": "far fa-list-alt",
+      "linkIframe": "http://transparenciapublica.sicasp.com.br/rgf/151141"
+    }
+  ]
+}
