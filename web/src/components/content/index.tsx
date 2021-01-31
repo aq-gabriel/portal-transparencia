@@ -1,5 +1,5 @@
 import React from 'react';
-import Push from '../Push';
+import Push from '../push';
 import { ContentRC } from './styles';
 
 interface MyProps {
