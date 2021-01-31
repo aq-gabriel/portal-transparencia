@@ -7,7 +7,7 @@ export default createGlobalStyle`
   }
 
   body{
-    background: yellow;
+    background: #bdbdbd;
     -webkit-font-smoothing: antialiased;
     
     display: flex;
