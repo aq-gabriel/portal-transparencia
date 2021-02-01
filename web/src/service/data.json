@@ -55,22 +55,22 @@
     },
     {
       "name": "Acompanhamento dos Programas e Ações",
-      "link": "http://transparenciapublica.sicasp.com.br/ampa/151141",
+      "link": "/acompanhamento-programa-acoes",
       "iconImage": "fas fa-tasks"
     },
     {
       "name": "Relatório dos Projetos e Execução de Obras Públicas do Executivo Municipal",
-      "link": "http://transparenciapublica.sicasp.com.br/ampa/151141",
+      "link": "/projeto-execucao-obras",
       "iconImage": "fas fa-hard-hat"
     },
     {
       "name": "Relatório Anual de Controle Interno",
-      "link": "http://187.122.248.215:8092/portal_pmgopa/app/portal_transparencia/0009",
+      "link": "/relatorio-anual-controle-interno",
       "iconImage": "fas fa-info-circle"
     },
     {
       "name": "Ações para Enfrentamento ao COVID-19",
-      "link": "http://187.122.248.215:8092/portal_pmgopa/app/portal_transparencia/0009",
+      "link": "/acoes-covid",
       "iconImage": "fas fa-viruses"
     }
   ]

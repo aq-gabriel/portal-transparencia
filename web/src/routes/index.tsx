@@ -24,6 +24,13 @@ import AtendimentoDireto from '../pages/atendimentoDireto';
 import PerguntasRespostas from '../pages/perguntasRespostas';
 import AtosNormativos from '../pages/atosNormativos';
 import BensPublicos from '../pages/bensPublicos';
+import AcompanhamentoProgramaAcoes from '../pages/acompanhamentoProgramaAcoes';
+import ProjetoExecucaoObras from '../pages/projetoExecucaoObras';
+import RelatorioAnualControleInterno from '../pages/relatorioAnualControleInterno';
+import AcoesCovid from '../pages/acoesCovid';
+import ReceitasCovid from '../pages/receitasCovid';
+import DespesasGeraisCovid from '../pages/despesasGeraisCovid';
+import AcompanhamentoMensalProgamaCovid from '../pages/acompanhamentoMensalProgamaCovid';
 
 const Routes: React.FC = () => (
   <Switch>
@@ -50,6 +57,13 @@ const Routes: React.FC = () => (
     <Route path="/perguntas-respostas" exact component={PerguntasRespostas} />
     <Route path="/atos-normativos" exact component={AtosNormativos} />
     <Route path="/bens-publicos" exact component={BensPublicos} />
+    <Route path="/acompanhamento-programa-acoes" exact component={AcompanhamentoProgramaAcoes} />
+    <Route path="/projeto-execucao-obras" exact component={ProjetoExecucaoObras} />
+    <Route path="/relatorio-anual-controle-interno" exact component={RelatorioAnualControleInterno} />
+    <Route path="/acoes-covid" exact component={AcoesCovid} />
+    <Route path="/receitas-covid" exact component={ReceitasCovid} />
+    <Route path="/despesas-gerais-covid" exact component={DespesasGeraisCovid} />
+    <Route path="/acompanhamento-mensal-programas-covid" exact component={AcompanhamentoMensalProgamaCovid} />
   </Switch>
 );
 
