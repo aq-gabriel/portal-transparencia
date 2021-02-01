@@ -9,6 +9,14 @@ import Manutencao from '../pages/manutencao';
 import ReceitasDespesas from '../pages/receitasDespesas';
 import Receitas from '../pages/receitas';
 import Despesas from '../pages/despesas';
+import DespesasGerais from '../pages/despesasGerais';
+import DespesasPessoal from '../pages/despesasPessoal';
+import DespesasDiarias from '../pages/despesasDiarias';
+import DespesasRepasseTransferencia from '../pages/despesasRepasseTransferencia';
+import DespesasExtraorcamentaria from '../pages/despesasExtraorcamentaria';
+import DespesasPagamentoRestosPagar from '../pages/despesasPagamentoRestosPagar';
+import DespesasRepasseConcedido from '../pages/despesasRepasseConcedido';
+import DespesasPagamentoFornecedor from '../pages/despesasPagamentoFornecedor';
 
 const Routes: React.FC = () => (
   <Switch>
@@ -20,6 +28,14 @@ const Routes: React.FC = () => (
     <Route path="/receitas-despesas" exact component={ReceitasDespesas} />
     <Route path="/receitas-publicas" exact component={Receitas} />
     <Route path="/despesas-publicas" exact component={Despesas} />
+    <Route path="/despesas-gerais" exact component={DespesasGerais} />
+    <Route path="/despesas-pessoal" exact component={DespesasPessoal} />
+    <Route path="/despesas-diarias" exact component={DespesasDiarias} />
+    <Route path="/despesas-repasse-transferencia" exact component={DespesasRepasseTransferencia} />
+    <Route path="/despesa-extraorcamentaria" exact component={DespesasExtraorcamentaria} />
+    <Route path="/despesa-restos-pagar" exact component={DespesasPagamentoRestosPagar} />
+    <Route path="/despesa-repasses-concedidos" exact component={DespesasRepasseConcedido} />
+    <Route path="/despesa-pagamento-fornecedor" exact component={DespesasPagamentoFornecedor} />
   </Switch>
 );
 

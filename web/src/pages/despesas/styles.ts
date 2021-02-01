@@ -9,7 +9,8 @@ export const Ul: any = styled.ul`
 
   display: flex;
   flex-flow: row wrap;
-
+  justify-content: space-around;
+  
   li{
     margin-left:0.8rem;
   }

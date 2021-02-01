@@ -7,7 +7,7 @@ export const Button: any = styled.button`
   border-radius: 10px;
   position:absolute;
   top: 154px;
-  left: 15px;
+  left: 76px;
 
   display: flex;
   flex-direction: row;

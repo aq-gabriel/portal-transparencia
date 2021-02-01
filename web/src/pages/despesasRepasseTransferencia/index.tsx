@@ -4,11 +4,11 @@ import Content from '../../components/content';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Voltar from '../../components/return';
+import Card from '../../components/card';
 
 import { ContainerIframeRC, ContainerPortal, IframeRC, MenuVertical, Ul } from './styles';
 
 import Dados from './data.json';
-import Card from '../../components/card';
 
 interface linkInframe {
   name: string;
@@ -16,10 +16,9 @@ interface linkInframe {
   iconImage: string;
 }
 
-const Receitas: React.FC = () => {
+const DespesasRepasseTransferencia: React.FC = () => {
 
   const { linkIframe } = Dados;
-  console.log(linkIframe);
 
   return (
     <>
@@ -56,4 +55,4 @@ const Receitas: React.FC = () => {
   )
 }
 
-export default Receitas;
+export default DespesasRepasseTransferencia;

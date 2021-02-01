@@ -13,22 +13,10 @@
       "linkIframe": "/despesas-pessoal"
     },
     {
-      "name": "Despesas com Diárias",
-      "link": "",
-      "iconImage": "fas fa-calendar-day",
-      "linkIframe": "/despesas-diarias"
-    },
-    {
-      "name": "Despesas com Obras",
-      "link": "",
-      "iconImage": "fas fa-hard-hat",
-      "linkIframe": "/despesas-obras"
-    },
-    {
       "name": "Despesa com Repasse e/ou Transferências",
       "link": "",
       "iconImage": "fas fa-random",
-      "linkIframe": "/despesa-repasse-transferencia"
+      "linkIframe": "/despesas-repasse-transferencia"
     },
     {
       "name": "Despesas Extraorçamentaria",
@@ -43,16 +31,16 @@
       "linkIframe": "/despesa-restos-pagar"
     },
     {
-      "name": "Repasses Concebidos",
+      "name": "Repasses Concedidos",
       "link": "",
       "iconImage": "fas fa-exchange-alt",
-      "linkIframe": "/repasses-concebidos"
+      "linkIframe": "/despesa-repasses-concedidos"
     },
     {
       "name": "Pagamento por Fornecedor",
       "link": "",
       "iconImage": "fas fa-archive",
-      "linkIframe": "pagamento-fornecedor"
+      "linkIframe": "/despesa-pagamento-fornecedor"
     }
   ]
 }
