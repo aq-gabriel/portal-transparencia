@@ -40,7 +40,7 @@
     },
     {
       "name": "Atendimento ao Cidadão",
-      "link": "/receitas-despesas",
+      "link": "/atendimento-publico",
       "iconImage": "fas fa-phone-square-alt"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "name": "Controle dos Bens Públicos",
-      "link": "/bem-publico",
+      "link": "/bens-publicos",
       "iconImage": "fas fa-hotel"
     },
     {

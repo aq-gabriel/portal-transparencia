@@ -22,19 +22,7 @@
       "name": "Convênio e Termos de Cooperação",
       "link": "",
       "iconImage": "far fa-list-alt",
-      "linkIframe": "http://transparenciapublica.sicasp.com.br/rgf/151141"
-    },
-    {
-      "name": "Despesa com o Pessoal",
-      "link": "",
-      "iconImage": "fas fa-list-alt",
-      "linkIframe": "/despesa-pessoal"
-    },
-    {
-      "name": "Despesas com Diárias",
-      "link": "",
-      "iconImage": "fas fa-file-invoice-dollar",
-      "linkIframe": "http://transparenciapublica.sicasp.com.br/rreo/151141"
+      "linkIframe": "/convenio-termo-cooperacao"
     }
   ]
 }

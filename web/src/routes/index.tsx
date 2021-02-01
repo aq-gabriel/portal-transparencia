@@ -17,6 +17,13 @@ import DespesasExtraorcamentaria from '../pages/despesasExtraorcamentaria';
 import DespesasPagamentoRestosPagar from '../pages/despesasPagamentoRestosPagar';
 import DespesasRepasseConcedido from '../pages/despesasRepasseConcedido';
 import DespesasPagamentoFornecedor from '../pages/despesasPagamentoFornecedor';
+import ProcessoLicitatorio from '../pages/processoLicitatorio';
+import ConvenioTermosCooperacao from '../pages/convenioTermosCooperacao';
+import AtendimentoPublico from '../pages/atendimentoPublico';
+import AtendimentoDireto from '../pages/atendimentoDireto';
+import PerguntasRespostas from '../pages/perguntasRespostas';
+import AtosNormativos from '../pages/atosNormativos';
+import BensPublicos from '../pages/bensPublicos';
 
 const Routes: React.FC = () => (
   <Switch>
@@ -32,10 +39,17 @@ const Routes: React.FC = () => (
     <Route path="/despesas-pessoal" exact component={DespesasPessoal} />
     <Route path="/despesas-diarias" exact component={DespesasDiarias} />
     <Route path="/despesas-repasse-transferencia" exact component={DespesasRepasseTransferencia} />
-    <Route path="/despesa-extraorcamentaria" exact component={DespesasExtraorcamentaria} />
-    <Route path="/despesa-restos-pagar" exact component={DespesasPagamentoRestosPagar} />
-    <Route path="/despesa-repasses-concedidos" exact component={DespesasRepasseConcedido} />
-    <Route path="/despesa-pagamento-fornecedor" exact component={DespesasPagamentoFornecedor} />
+    <Route path="/despesas-extraorcamentaria" exact component={DespesasExtraorcamentaria} />
+    <Route path="/despesas-restos-pagar" exact component={DespesasPagamentoRestosPagar} />
+    <Route path="/despesas-repasses-concedidos" exact component={DespesasRepasseConcedido} />
+    <Route path="/despesas-pagamento-fornecedor" exact component={DespesasPagamentoFornecedor} />
+    <Route path="/processo-licitatorio" exact component={ProcessoLicitatorio} />
+    <Route path="/convenio-termo-cooperacao" exact component={ConvenioTermosCooperacao} />
+    <Route path="/atendimento-publico" exact component={AtendimentoPublico} />
+    <Route path="/atendimento-direto" exact component={AtendimentoDireto} />
+    <Route path="/perguntas-respostas" exact component={PerguntasRespostas} />
+    <Route path="/atos-normativos" exact component={AtosNormativos} />
+    <Route path="/bens-publicos" exact component={BensPublicos} />
   </Switch>
 );
 

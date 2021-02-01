@@ -1,28 +1,16 @@
 {
   "linkIframe": [
     {
-      "name": "Empenhos",
+      "name": "Lista de Servidores",
       "link": "",
-      "iconImage": "fas fa-tag",
-      "linkIframe": "http://transparenciapublica.sicasp.com.br/empenho/151141/pessoal"
+      "iconImage": "fas fa-user-friends",
+      "linkIframe": "http://187.122.248.215:8092/portal_pmgopa/app/portal_transparencia/0020"
     },
     {
-      "name": "Liquidações",
+      "name": "Folha Pagamento",
       "link": "",
-      "iconImage": "fas fa-receipt",
-      "linkIframe": "http://transparenciapublica.sicasp.com.br/liquidacao/151141/pessoal"
-    },
-    {
-      "name": "Pagamentos",
-      "link": "",
-      "iconImage": "fas fa-gavel",
-      "linkIframe": "http://transparenciapublica.sicasp.com.br/pagamento/151141/pessoal"
-    },
-    {
-      "name": "Anulações",
-      "link": "",
-      "iconImage": "fas fa-ban",
-      "linkIframe": "http://transparenciapublica.sicasp.com.br/anulacao/151141/pessoal"
+      "iconImage": "fas fa-money-check-alt",
+      "linkIframe": "http://187.122.248.215:8092/portal_pmgopa/app/portal_transparencia/0021"
     }
   ]
 }

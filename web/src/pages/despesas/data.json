@@ -13,7 +13,7 @@
       "linkIframe": "/despesas-pessoal"
     },
     {
-      "name": "Despesa com Repasse e/ou Transferências",
+      "name": "Despesas com Repasse e/ou Transferências",
       "link": "",
       "iconImage": "fas fa-random",
       "linkIframe": "/despesas-repasse-transferencia"
@@ -22,25 +22,31 @@
       "name": "Despesas Extraorçamentaria",
       "link": "",
       "iconImage": "fas fa-folder-plus",
-      "linkIframe": "/despesa-extraorcamentaria"
+      "linkIframe": "/despesas-extraorcamentaria"
     },
     {
       "name": "Pagamento de Restos a Pagar",
       "link": "",
       "iconImage": "fas fa-comment-dollar",
-      "linkIframe": "/despesa-restos-pagar"
+      "linkIframe": "/despesas-restos-pagar"
     },
     {
       "name": "Repasses Concedidos",
       "link": "",
       "iconImage": "fas fa-exchange-alt",
-      "linkIframe": "/despesa-repasses-concedidos"
+      "linkIframe": "/despesas-repasses-concedidos"
     },
     {
       "name": "Pagamento por Fornecedor",
       "link": "",
       "iconImage": "fas fa-archive",
-      "linkIframe": "/despesa-pagamento-fornecedor"
+      "linkIframe": "/despesas-pagamento-fornecedor"
+    },
+    {
+      "name": "Despesas com Diárias",
+      "link": "",
+      "iconImage": "fas fa-file-invoice-dollar",
+      "linkIframe": "/despesas-diarias"
     }
   ]
 }
